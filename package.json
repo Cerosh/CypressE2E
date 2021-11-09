@@ -6,13 +6,12 @@
   "scripts": {
     "cy:open": "cypress open",
     "test": "cypress run",
-    "runtests": "npm run test --",
-    "cy:run:chrome": "$(npm bin)/cypress run --browser chrome",
     "cy:run-with-report": "cypress run && node report.js",
-    "cy:tags": "./node_modules/.bin/cypress-tags run"
+    "cy:run:chrome-with-report": "cypress run --browser chrome && node report.js",
+    "cy:run:firefox-with-report": "cypress run --browser firefox --config video=false && node report.js"
   },
   "keywords": [
-    "Cypress"
+    "Cypress","Docker","Jenkins"
   ],
   "author": "Cerosh",
   "license": "ISC",
