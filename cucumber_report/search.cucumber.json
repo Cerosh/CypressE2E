@@ -1,0 +1,248 @@
+[
+  {
+    "description": "    As a web surfer, I want to search Google, so that I can learn new things about Doshii.",
+    "keyword": "Feature",
+    "name": "Google Searching",
+    "line": 1,
+    "id": "google-searching",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "google-searching;simple-google-search",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Simple Google search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a web browser is on the Google page",
+            "result": {
+              "status": "passed",
+              "duration": 2064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the search phrase \"Doshii\" is entered",
+            "result": {
+              "status": "passed",
+              "duration": 8088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "results for \"Doshii\" are shown",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the related results include \"Doshii: Venue Integration Served Simply\"",
+            "result": {
+              "status": "passed",
+              "duration": 644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 10,
+            "name": "the related results do not include \"Spriggy\"",
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-searching;search-in-google-for-related-results",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search in google for related results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "a web browser is on the Google page",
+            "result": {
+              "status": "passed",
+              "duration": 2071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the search phrase \"Doshii\" is entered",
+            "result": {
+              "status": "passed",
+              "duration": 7002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "results for \"Doshii\" are shown",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "related"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Doshii - Australian FinTech"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Doshii: Venue Integration Served Simply"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CBA-owned Doshii to build market share - Finance - Strategy"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the following related results are shown",
+            "result": {
+              "status": "passed",
+              "duration": 861000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-searching;searches-in-google-using-examples",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Searches in google using examples",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "a web browser is on the Google page",
+            "result": {
+              "status": "passed",
+              "duration": 1577000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the search phrase \"Doshii\" is entered",
+            "result": {
+              "status": "passed",
+              "duration": 7744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "results for \"Doshii\" are shown",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the related results include \"Doshii: Venue Integration Served Simply\"",
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-searching;searches-in-google-using-examples",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Searches in google using examples",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "a web browser is on the Google page",
+            "result": {
+              "status": "passed",
+              "duration": 2375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the search phrase \"Commonwealth Bank\" is entered",
+            "result": {
+              "status": "passed",
+              "duration": 7065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "results for \"Commonwealth Bank\" are shown",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the related results include \"CommBank - bank accounts, credit cards, home loans and ...\"",
+            "result": {
+              "status": "passed",
+              "duration": 696000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
